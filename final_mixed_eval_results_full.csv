@@ -1,0 +1,101 @@
+Model,Sampling,Text,CER,UTMOS,SECS
+Baseline,greedy,The North Wind and the Sun wer...,0.3130434782608696,4.465619087219238,0.5068114399909973
+Baseline,min_p,The North Wind and the Sun wer...,0.34782608695652173,4.4878435134887695,0.6193283796310425
+Baseline,contrastive,The North Wind and the Sun wer...,0.2608695652173913,4.477168083190918,0.5825226306915283
+Baseline,balanced,The North Wind and the Sun wer...,0.3217391304347826,4.41180944442749,0.3611205816268921
+Baseline,greedy,"He bought apples, oranges, and...",0.20238095238095238,4.401025295257568,0.5740358829498291
+Baseline,min_p,"He bought apples, oranges, and...",0.11904761904761904,4.157337188720703,0.6091363430023193
+Baseline,contrastive,"He bought apples, oranges, and...",0.2619047619047619,4.274143695831299,0.5226678848266602
+Baseline,balanced,"He bought apples, oranges, and...",0.15476190476190477,4.163322925567627,0.6048424243927002
+Baseline,greedy,Could you please tell me how t...,0.16666666666666666,4.461482048034668,0.6436329483985901
+Baseline,min_p,Could you please tell me how t...,0.10714285714285714,4.4736127853393555,0.6717554330825806
+Baseline,contrastive,Could you please tell me how t...,0.19047619047619047,4.486701965332031,0.6774101853370667
+Baseline,balanced,Could you please tell me how t...,0.11904761904761904,4.490439414978027,0.5421344637870789
+Baseline,greedy,The meeting is scheduled for M...,0.2972972972972973,4.473587512969971,0.6906816959381104
+Baseline,min_p,The meeting is scheduled for M...,0.36486486486486486,4.461511135101318,0.7150102853775024
+Baseline,contrastive,The meeting is scheduled for M...,0.22972972972972974,4.138772964477539,0.6026608943939209
+Baseline,balanced,The meeting is scheduled for M...,0.43243243243243246,4.466463565826416,0.6494256258010864
+Baseline,greedy,Stop right there! I can't beli...,0.23076923076923078,3.9669666290283203,0.5752747058868408
+Baseline,min_p,Stop right there! I can't beli...,0.2564102564102564,4.451226711273193,0.6379894614219666
+Baseline,contrastive,Stop right there! I can't beli...,0.32051282051282054,4.266153812408447,0.5498534440994263
+Baseline,balanced,Stop right there! I can't beli...,0.3974358974358974,4.477784633636475,0.5863169431686401
+Baseline,greedy,In a hole in the ground there ...,0.4351851851851852,4.273597717285156,0.5460015535354614
+Baseline,min_p,In a hole in the ground there ...,0.28703703703703703,4.233967304229736,0.6480182409286499
+Baseline,contrastive,In a hole in the ground there ...,0.3055555555555556,4.449291706085205,0.6182278394699097
+Baseline,balanced,In a hole in the ground there ...,0.4166666666666667,4.174712181091309,0.6435449123382568
+Baseline,greedy,Quantum entanglement is a phys...,0.1651376146788991,4.306722640991211,0.5921621918678284
+Baseline,min_p,Quantum entanglement is a phys...,0.30275229357798167,4.456848621368408,0.6788058876991272
+Baseline,contrastive,Quantum entanglement is a phys...,0.26605504587155965,4.247591018676758,0.5909740924835205
+Baseline,balanced,Quantum entanglement is a phys...,0.3669724770642202,4.435912132263184,0.5654863119125366
+Baseline,greedy,"Oh. I see. Well, okay then. Ye...",0.5925925925925926,4.339462757110596,0.4580804109573364
+Baseline,min_p,"Oh. I see. Well, okay then. Ye...",0.4444444444444444,4.455324172973633,0.38299161195755005
+Baseline,contrastive,"Oh. I see. Well, okay then. Ye...",0.37037037037037035,3.891583204269409,0.4768856465816498
+Baseline,balanced,"Oh. I see. Well, okay then. Ye...",0.5925925925925926,4.083963871002197,0.3021641969680786
+Baseline,greedy,She sells seashells by the sea...,0.1038961038961039,4.448183059692383,0.5487815141677856
+Baseline,min_p,She sells seashells by the sea...,0.16883116883116883,4.436527729034424,0.4451965093612671
+Baseline,contrastive,She sells seashells by the sea...,0.3246753246753247,4.033997535705566,0.4840223789215088
+Baseline,balanced,She sells seashells by the sea...,0.12987012987012986,3.674682378768921,0.5353512763977051
+Baseline,greedy,"The city was quiet, draped in ...",0.3090909090909091,4.466329097747803,0.6408052444458008
+Baseline,min_p,"The city was quiet, draped in ...",0.45454545454545453,4.232863903045654,0.5402221083641052
+Baseline,contrastive,"The city was quiet, draped in ...",0.2818181818181818,4.499811172485352,0.6077742576599121
+Baseline,balanced,"The city was quiet, draped in ...",0.36363636363636365,3.7476515769958496,0.5476579666137695
+CFG Fine-tune,cfg_greedy,The North Wind and the Sun wer...,0.20869565217391303,4.0536956787109375,0.6363527774810791
+CFG Fine-tune,cfg_balanced,The North Wind and the Sun wer...,0.28695652173913044,4.324638366699219,0.5599549412727356
+CFG Fine-tune,cfg_greedy,"He bought apples, oranges, and...",0.05952380952380952,4.085838317871094,0.4965694546699524
+CFG Fine-tune,cfg_balanced,"He bought apples, oranges, and...",0.2619047619047619,4.111390113830566,0.5619649291038513
+CFG Fine-tune,cfg_greedy,Could you please tell me how t...,0.40476190476190477,3.6320877075195312,0.6489535570144653
+CFG Fine-tune,cfg_balanced,Could you please tell me how t...,0.09523809523809523,4.2084455490112305,0.6338434219360352
+CFG Fine-tune,cfg_greedy,The meeting is scheduled for M...,0.4864864864864865,4.2588653564453125,0.6867451667785645
+CFG Fine-tune,cfg_balanced,The meeting is scheduled for M...,0.1891891891891892,4.429637908935547,0.6137701272964478
+CFG Fine-tune,cfg_greedy,Stop right there! I can't beli...,0.19230769230769232,4.142935752868652,0.5705376863479614
+CFG Fine-tune,cfg_balanced,Stop right there! I can't beli...,0.16666666666666666,4.378948211669922,0.5602279901504517
+CFG Fine-tune,cfg_greedy,In a hole in the ground there ...,0.32407407407407407,4.207890510559082,0.6466541886329651
+CFG Fine-tune,cfg_balanced,In a hole in the ground there ...,0.25,3.758378744125366,0.49309423565864563
+CFG Fine-tune,cfg_greedy,Quantum entanglement is a phys...,0.24770642201834864,4.143194198608398,0.6151770353317261
+CFG Fine-tune,cfg_balanced,Quantum entanglement is a phys...,0.05504587155963303,4.263923645019531,0.5587129592895508
+CFG Fine-tune,cfg_greedy,"Oh. I see. Well, okay then. Ye...",0.0,4.384544372558594,0.43861228227615356
+CFG Fine-tune,cfg_balanced,"Oh. I see. Well, okay then. Ye...",0.0,4.054983139038086,0.43314889073371887
+CFG Fine-tune,cfg_greedy,She sells seashells by the sea...,0.4935064935064935,4.035078048706055,0.495471328496933
+CFG Fine-tune,cfg_balanced,She sells seashells by the sea...,0.23376623376623376,3.8231401443481445,0.5109748840332031
+CFG Fine-tune,cfg_greedy,"The city was quiet, draped in ...",0.23636363636363636,4.386995315551758,0.5552434921264648
+CFG Fine-tune,cfg_balanced,"The city was quiet, draped in ...",0.10909090909090909,4.416007995605469,0.5233106017112732
+CFG Learning,greedy,The North Wind and the Sun wer...,0.1565217391304348,4.421605587005615,0.6196585893630981
+CFG Learning,balanced,The North Wind and the Sun wer...,0.2782608695652174,4.459102153778076,0.6129714250564575
+CFG Learning,min_p,The North Wind and the Sun wer...,0.12173913043478261,4.242579460144043,0.6276687979698181
+CFG Learning,contrastive,The North Wind and the Sun wer...,0.1391304347826087,4.3384199142456055,0.641887903213501
+CFG Learning,greedy,"He bought apples, oranges, and...",0.3333333333333333,4.079856872558594,0.5032742619514465
+CFG Learning,balanced,"He bought apples, oranges, and...",0.16666666666666666,4.010498046875,0.57803875207901
+CFG Learning,min_p,"He bought apples, oranges, and...",0.32142857142857145,4.36992073059082,0.6296091079711914
+CFG Learning,contrastive,"He bought apples, oranges, and...",0.5476190476190477,4.067883491516113,0.5892781615257263
+CFG Learning,greedy,Could you please tell me how t...,0.11904761904761904,4.108919143676758,0.6118602752685547
+CFG Learning,balanced,Could you please tell me how t...,0.23809523809523808,4.446834564208984,0.510317325592041
+CFG Learning,min_p,Could you please tell me how t...,0.08333333333333333,4.407116889953613,0.5353708267211914
+CFG Learning,contrastive,Could you please tell me how t...,0.17857142857142858,4.2556657791137695,0.5619651079177856
+CFG Learning,greedy,The meeting is scheduled for M...,0.2702702702702703,4.419920444488525,0.6402230858802795
+CFG Learning,balanced,The meeting is scheduled for M...,0.2702702702702703,4.414760112762451,0.5941073894500732
+CFG Learning,min_p,The meeting is scheduled for M...,0.28378378378378377,4.303575038909912,0.6484964489936829
+CFG Learning,contrastive,The meeting is scheduled for M...,0.3918918918918919,4.450333595275879,0.6499742865562439
+CFG Learning,greedy,Stop right there! I can't beli...,0.08974358974358974,4.322909832000732,0.3040837049484253
+CFG Learning,balanced,Stop right there! I can't beli...,0.16666666666666666,4.352719783782959,0.648845911026001
+CFG Learning,min_p,Stop right there! I can't beli...,0.1794871794871795,4.324512958526611,0.474608838558197
+CFG Learning,contrastive,Stop right there! I can't beli...,0.14102564102564102,4.420223236083984,0.20065847039222717
+CFG Learning,greedy,In a hole in the ground there ...,0.18518518518518517,4.2909064292907715,0.6101744174957275
+CFG Learning,balanced,In a hole in the ground there ...,0.35185185185185186,4.3595099449157715,0.5540286302566528
+CFG Learning,min_p,In a hole in the ground there ...,0.07407407407407407,4.054239749908447,0.6436427235603333
+CFG Learning,contrastive,In a hole in the ground there ...,0.21296296296296297,4.246363639831543,0.5971602201461792
+CFG Learning,greedy,Quantum entanglement is a phys...,0.11926605504587157,4.317950248718262,0.5818547606468201
+CFG Learning,balanced,Quantum entanglement is a phys...,0.28440366972477066,4.449131965637207,0.6004129648208618
+CFG Learning,min_p,Quantum entanglement is a phys...,0.3302752293577982,4.47658634185791,0.5559791326522827
+CFG Learning,contrastive,Quantum entanglement is a phys...,0.23853211009174313,4.485438823699951,0.6138566732406616
+CFG Learning,greedy,"Oh. I see. Well, okay then. Ye...",0.4074074074074074,4.4053802490234375,0.33223801851272583
+CFG Learning,balanced,"Oh. I see. Well, okay then. Ye...",0.18518518518518517,4.281908988952637,0.23778504133224487
+CFG Learning,min_p,"Oh. I see. Well, okay then. Ye...",0.37037037037037035,4.344263076782227,0.40801677107810974
+CFG Learning,contrastive,"Oh. I see. Well, okay then. Ye...",0.7777777777777778,4.348033428192139,0.3539286255836487
+CFG Learning,greedy,She sells seashells by the sea...,0.33766233766233766,4.4120965003967285,0.531154215335846
+CFG Learning,balanced,She sells seashells by the sea...,0.2727272727272727,4.1835174560546875,0.5396639108657837
+CFG Learning,min_p,She sells seashells by the sea...,0.2077922077922078,4.404010772705078,0.5474169850349426
+CFG Learning,contrastive,She sells seashells by the sea...,0.2727272727272727,4.248937606811523,0.5057827830314636
+CFG Learning,greedy,"The city was quiet, draped in ...",0.22727272727272727,4.365751266479492,0.6468217372894287
+CFG Learning,balanced,"The city was quiet, draped in ...",0.22727272727272727,4.12444543838501,0.5352182388305664
+CFG Learning,min_p,"The city was quiet, draped in ...",0.34545454545454546,4.296582221984863,0.5471617579460144
+CFG Learning,contrastive,"The city was quiet, draped in ...",0.3,4.425019264221191,0.567031979560852
